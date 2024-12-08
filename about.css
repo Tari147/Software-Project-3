@@ -1,0 +1,113 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f1e571;
+    text-align: center;
+}
+
+.about {
+    max-width: 700px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 12mm;
+    font-style: italic;
+}
+
+.about a {
+    font-size: larger;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    align-content: space-evenly;
+}
+
+.navbar li {
+    margin: 0 10px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-image {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.abouti {
+    line-height: 1.5;
+}
+
+.copyright {
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.copyright a {
+    color: white;
+}
+
+.tariqul {
+    display: inline-block;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.khalid {
+    display: inline-block;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.suborno {
+    display: inline-block;
+    max-width: 200px;
+    margin-top: 10px;
+}

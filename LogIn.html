@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter | LogIn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <strong><a href="Home.html">Recruiter</a></strong>
+    <p><b>Here you can get jobs & employees as your need.</b></p>
+    <div class="login">
+        <h2><b>Log In</b></h2>
+        <form id="login-form">
+            <fieldset>
+                <legend>Select Account Type</legend>
+                <input type="radio" name="select" id="select" value="Employee">
+                <label for="select">Employee</label>
+                <br>
+                <input type="radio" name="select" id="select" value="Employer">
+                <label for="select">Employer</label>
+                <br>
+            </fieldset>
+            <label for="username"><b>Username: </b></label>
+            <input type="text" id="username" placeholder="Username" required>
+            <br>
+            <br>
+            <label for="password"><b>Password: </b></labe>
+                <input type="password" id="password" placeholder="Password" required>
+                <br>
+                <br>
+                <button type="submit"><b>Log in</b></button>
+        </form>
+        <p>Don't have account?</p>
+        <a href="SignUp.html" id="signup">Sign up for employer</a>
+        <br>
+        <br>
+        <a href="SignUpe.html" id="signup">Sign up for employee</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f1e571;
+  text-align: center;
+}
+
+.signupe {
+  max-width: 700px;
+  height: fit-content;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 12mm;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 99%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 99%;
+  height: 30px;
+  display: inline-block;
+  padding: 5px 60px;
+  background-color: #007bffdd;
+  border-color: #007bffdd;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.signupe button:hover {
+  background-color: #0056b3;
+}
